@@ -8,7 +8,7 @@ public:
         {
             if(nums[i]!=nums[j])
             {
-                nums[i+1]=nums[j];
+                nums[i+1]=nums[j];//if elements are not equal, we move the pointer forward,allowing the element to stay in nums
                 i++;
             }
         }
