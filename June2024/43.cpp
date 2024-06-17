@@ -1,0 +1,17 @@
+//633. Sum of Square Numbers
+
+class Solution {
+public:
+    bool judgeSquareSum(int c) {
+        if(c<0){
+            return false;
+        }
+        for(long a=0;a*a<=c;a++){
+            double b=sqrt(c - a*a);
+            if(b==(int)b){
+                return true;
+            }
+        }
+        return false;
+    }
+};
