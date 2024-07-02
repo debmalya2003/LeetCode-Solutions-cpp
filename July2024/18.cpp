@@ -7,6 +7,6 @@ public:
             return false;
         }
         string con=s+s;
-        return con.find(goal)!=string::npos;
+        return con.find(goal)!=string::npos;//npos means not-found
     }
 };
